@@ -16,6 +16,8 @@ public class JCommClient {
      */
     public static void main(String[] args) {
         
+        services.Services.InitServices("http://localhost:9090");
+        
     }
     
 }

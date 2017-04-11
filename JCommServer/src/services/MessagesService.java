@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package database;
+package services;
 
-import com.caucho.hessian.server.HessianServlet;
-
-
+import database.DatabaseOperationHandler;
+import jcommcommon.IMessages;
+import jcommcommon.R;
 
 /**
  *
  * @author om4rezz
  */
-public class DatabaseOperationHandler extends HessianServlet {
-
-  
+public class MessagesService extends DatabaseOperationHandler implements IMessages, R.Messages {
 
 }

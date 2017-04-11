@@ -18,6 +18,8 @@ public interface IUsers {
 
     int authenticate(String username, String password);
 
+    String signup(String username, String password);
+
     Map<String, Object> getUser(int id);
 
     List<Map<String, Object>> searchUsers(String search);

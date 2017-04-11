@@ -5,6 +5,7 @@
  */
 package services;
 
+import database.DatabaseOperationHandler;
 import java.util.List;
 import java.util.Map;
 import jcommcommon.IUsers;
@@ -14,7 +15,7 @@ import jcommcommon.R;
  *
  * @author om4rezz
  */
-public class UsersService implements IUsers, R.Users {
+public class UsersService extends DatabaseOperationHandler implements IUsers, R.Users {
 
     @Override
     public int authenticate(String username, String password) {
@@ -28,6 +29,11 @@ public class UsersService implements IUsers, R.Users {
 
     @Override
     public List<Map<String, Object>> searchUsers(String search) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String signup(String username, String password) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
