@@ -5,7 +5,6 @@
  */
 package jcommserver;
 
-import database.DatabaseOperationHandler;
 import jcommcommon.IMessages;
 import jcommcommon.IUsers;
 import org.eclipse.jetty.server.Server;

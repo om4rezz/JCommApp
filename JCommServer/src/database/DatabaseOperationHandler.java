@@ -14,7 +14,6 @@ import com.caucho.hessian.server.HessianServlet;
  * @author om4rezz
  */
 public class DatabaseOperationHandler extends HessianServlet {
-
-  
+    
 
 }
